@@ -1,0 +1,754 @@
+TBreakthrough UCT
+v7
+r0
+t406854827.238906
+cCheck dependencies
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Alpha Beta.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Eval.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Game.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Math.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Misc.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Move.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Stopwatch.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Timer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/UCT.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/RandomPlayer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/PlayRandom.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000005130AAD200000000000000EE
+t1362143954
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004BBD2CE90000000000002DF5
+t1270689001
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004CC3DE680000000000001E17
+t1287904872
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
+c000000004A11EB24000000000000190C
+t1242688292
+s6412
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Alpha Beta.cpp
+c000000005122DFF100000000000052F5
+t1361240049
+s21237
+i"Alpha Beta.h"
+i"Game.h"
+i<iostream>
+i<algorithm>
+i<vector>
+i<map>
+i<stdint.h>
+i<cstdlib>
+i"Timer.h"
+i"ZobristValues.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Alpha Beta.h
+c000000005122B76000000000000009E2
+t1361229664
+s2530
+i"Game.h"
+i"Eval.h"
+i<iostream>
+i<algorithm>
+i<vector>
+i<map>
+i<stdlib.h>
+i<stdint.h>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Eval.cpp
+c00000000511B1A2B000000000000252C
+t1360730667
+s9516
+i"Eval.h"
+i<iostream>
+i<vector>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Eval.h
+c0000000051186D8900000000000003B7
+t1360555401
+s951
+i<iostream>
+i<vector>
+i<string>
+i"Game.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Game.cpp
+c00000000513574A30000000000005C8E
+t1362457763
+s23694
+i"Game.h"
+i<iostream>
+i<ostream>
+i<sstream>
+i<stdint.h>
+i"Eval.h"
+i"ZobristValues.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Game.h
+c00000000512A85440000000000000A93
+t1361741124
+s2707
+i<ostream>
+i<string>
+i<vector>
+i<stdint.h>
+i"Move.h"
+i"Piece.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Math.cpp
+c0000000051156E4E00000000000002B2
+t1360358990
+s690
+i<cstdlib>
+i<ctime>
+i"Math.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Math.h
+c0000000051156E4E00000000000000DF
+t1360358990
+s223
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Misc.cpp
+c000000005119AF600000000000003770
+t1360637792
+s14192
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Move.cpp
+c0000000051156E4E0000000000000072
+t1360358990
+s114
+i"Move.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Move.h
+c0000000051156E4E000000000000011A
+t1360358990
+s282
+i<cstdlib>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Piece.h
+c0000000051186C0100000000000000DE
+t1360555009
+s222
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/PlayRandom.cpp
+c00000000512BCD3D0000000000000C45
+t1361825085
+s3141
+i"PlayRandom.h"
+i<cstdlib>
+i<iostream>
+i<string>
+i<stdlib.h>
+i<time.h>
+i"Game.h"
+i"Math.h"
+i"Eval.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/PlayRandom.h
+c00000000512BC5A50000000000000135
+t1361823141
+s309
+i"Game.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/RandomPlayer.cpp
+c00000000512A85C50000000000000000
+t1361741253
+s0
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Stopwatch.cpp
+c000000005122A56C00000000000001EF
+t1361225068
+s495
+i<time.h>
+i<iostream>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Timer.cpp
+c000000005122BB1000000000000008B9
+t1361230608
+s2233
+i"Timer.h"
+i<iostream>
+i<iomanip>
+i<chrono>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Timer.h
+c000000005122BAAC0000000000000545
+t1361230508
+s1349
+i<ostream>
+i<chrono>
+i<sys/time.h>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/UCT.cpp
+c00000000513576D700000000000016F9
+t1362458327
+s5881
+i"UCT.h"
+i"Timer.h"
+i"Game.h"
+i"Eval.h"
+i"PlayRandom.h"
+i<iostream>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/UCT.h
+c00000000512BC9C800000000000002E4
+t1361824200
+s740
+i"Game.h"
+i"Eval.h"
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/ZobristValues.h
+c000000005122B8AF0000000000000ADF
+t1361229999
+s2783
+i<stdint.h>
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o
+t1361741133
+s402140
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Breakthrough UCT.LinkFileList
+c00000000528FDB9A00000000000007F9
+t1385159578
+s2041
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o
+t1361741133
+s98016
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o
+t1362457778
+s214324
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o
+t1361667222
+s6636
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o
+t1361667222
+s1440
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o
+t1361667222
+s5276
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o
+t1361825085
+s132700
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o
+t1361741253
+s1448
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o
+t1361667222
+s67932
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o
+t1361667222
+s72808
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o
+t1362458340
+s176920
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o
+t1362457808
+s67420
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT
+t1385159579
+s234712
+
+N/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/main.cpp
+c00000000513574C2000000000000022B
+t1362457794
+s555
+i"Game.h"
+i"Alpha Beta.h"
+i"PlayRandom.h"
+i"UCT.h"
+i<vector>
+i<iostream>
+i<map>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp
+c000000005122DFF100000000000052F5
+t1361240049
+s21237
+i"Alpha Beta.h"
+i"Game.h"
+i<iostream>
+i<algorithm>
+i<vector>
+i<map>
+i<stdint.h>
+i<cstdlib>
+i"Timer.h"
+i"ZobristValues.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.h
+c000000005122B76000000000000009E2
+t1361229664
+s2530
+i"Game.h"
+i"Eval.h"
+i<iostream>
+i<algorithm>
+i<vector>
+i<map>
+i<stdlib.h>
+i<stdint.h>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp
+c00000000511B1A2B000000000000252C
+t1360730667
+s9516
+i"Eval.h"
+i<iostream>
+i<vector>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.h
+c0000000051186D8900000000000003B7
+t1360555401
+s951
+i<iostream>
+i<vector>
+i<string>
+i"Game.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp
+c00000000513574A30000000000005C8E
+t1362457763
+s23694
+i"Game.h"
+i<iostream>
+i<ostream>
+i<sstream>
+i<stdint.h>
+i"Eval.h"
+i"ZobristValues.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.h
+c00000000512A85440000000000000A93
+t1361741124
+s2707
+i<ostream>
+i<string>
+i<vector>
+i<stdint.h>
+i"Move.h"
+i"Piece.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp
+c0000000051156E4E00000000000002B2
+t1360358990
+s690
+i<cstdlib>
+i<ctime>
+i"Math.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.h
+c0000000051156E4E00000000000000DF
+t1360358990
+s223
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp
+c000000005119AF600000000000003770
+t1360637792
+s14192
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp
+c0000000051156E4E0000000000000072
+t1360358990
+s114
+i"Move.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.h
+c0000000051156E4E000000000000011A
+t1360358990
+s282
+i<cstdlib>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Piece.h
+c0000000051186C0100000000000000DE
+t1360555009
+s222
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp
+c00000000512BCD3D0000000000000C45
+t1361825085
+s3141
+i"PlayRandom.h"
+i<cstdlib>
+i<iostream>
+i<string>
+i<stdlib.h>
+i<time.h>
+i"Game.h"
+i"Math.h"
+i"Eval.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.h
+c00000000512BC5A50000000000000135
+t1361823141
+s309
+i"Game.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp
+c00000000512A85C50000000000000000
+t1361741253
+s0
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp
+c000000005122A56C00000000000001EF
+t1361225068
+s495
+i<time.h>
+i<iostream>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp
+c000000005122BB1000000000000008B9
+t1361230608
+s2233
+i"Timer.h"
+i<iostream>
+i<iomanip>
+i<chrono>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.h
+c000000005122BAAC0000000000000545
+t1361230508
+s1349
+i<ostream>
+i<chrono>
+i<sys/time.h>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp
+c00000000513576D700000000000016F9
+t1362458327
+s5881
+i"UCT.h"
+i"Timer.h"
+i"Game.h"
+i"Eval.h"
+i"PlayRandom.h"
+i<iostream>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.h
+c00000000512BC9C800000000000002E4
+t1361824200
+s740
+i"Game.h"
+i"Eval.h"
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/ZobristValues.h
+c000000005122B8AF0000000000000ADF
+t1361229999
+s2783
+i<stdint.h>
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o
+t1361741133
+s402140
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Breakthrough UCT.LinkFileList
+c00000000512A843C0000000000000721
+t1361740860
+s1825
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o
+t1361741133
+s98016
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o
+t1362457778
+s214324
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o
+t1361667222
+s6636
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o
+t1361667222
+s1440
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o
+t1361667222
+s5276
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o
+t1361825085
+s132700
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o
+t1361741253
+s1448
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o
+t1361667222
+s67932
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o
+t1361667222
+s72808
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o
+t1362458340
+s176920
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o
+t1362457808
+s67420
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT
+t1362458349
+s234528
+
+N/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp
+c00000000513574C2000000000000022B
+t1362457794
+s555
+i"Game.h"
+i"Alpha Beta.h"
+i"PlayRandom.h"
+i"UCT.h"
+i<vector>
+i<iostream>
+i<map>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies406854827#406854827#0(0"0(0#1#0"8616403456#0"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Alpha Beta.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383433929.419793
+e383433933.264620
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp: In function 'void DoMove(BoardState)':
+o/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp:605: warning: unused variable 'BestValue'
+o/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp: In function 'void PrintTT()':
+o/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp:970: warning: unused variable 'x'
+lSLF07#2@85"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp383433929#383433933#0(459"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp: In function 'void DoMove(BoardState)':/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp:605: warning: unused variable 'BestValue'/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp: In function 'void PrintTT()':/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp:970: warning: unused variable 'x'2(22@27"Unused variable 'BestValue'383433931#118#120#0(6@77"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp382932849#605#0#605#0#19"unused variable '*'0(22@19"Unused variable 'x'383433931#347#112#0(6@77"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp382932849#970#0#970#0#19"unused variable '*'0(0#0#77"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp8614789216#1751"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Alpha Beta.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Alpha Beta.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Eval.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383433931.563156
+e383433933.517388
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp383433931#383433933#0(0"0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp8614999776#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Eval.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Eval.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Game.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s384150608.360875
+e384150608.683283
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp384150608#384150608#0(242"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp: In function 'uint64_t GetMaxHashValue()':/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp:494: warning: control reaches end of non-void function1(22@40"Control reaches end of non-void function384150608#115#127#0(6@71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp384150563#494#0#494#0#40"control reaches end of non-void function0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp8620583776#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Game.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Game.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Math.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383360022.126174
+e383360022.178838
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp383360022#383360022#0(0"0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp7665776580704888832#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Math.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Math.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Misc.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383360022.178939
+e383360022.205091
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp383360022#383360022#0(0"0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp8620896576#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Misc.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Misc.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Move.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383360022.205293
+e383360022.287415
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp383360022#383360022#0(0"0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp8620717376#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Move.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Move.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/PlayRandom.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383517886.289403
+e383517886.290338
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp383517886#383517886#0(0"0(0#0#77"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp8625661152#1751"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/PlayRandom.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/PlayRandom.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/RandomPlayer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383434055.727122
+e383434055.728362
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp383434055#383434055#0(0"0(0#0#79"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp8619096448#1755"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/RandomPlayer.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/RandomPlayer.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Stopwatch.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383360022.236900
+e383360022.652721
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp383360022#383360022#0(0"0(0#0#76"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp8620586816#1749"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Stopwatch.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Stopwatch.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/Timer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383360022.287506
+e383360022.675160
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp383360022#383360022#0(0"0(0#0#72"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp8620292672#1741"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/Timer.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Timer.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/UCT.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s384151147.673464
+e384151147.704731
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp384151147#384151147#0(0"0(0#0#70"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp8613104960#1737"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/UCT.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/UCT.o"0#
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o" "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC "build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o" "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s384150596.603405
+e384150608.360380
+r1
+xCompileC
+xbuild/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp384150596#384150608#0(0"0(0#0#71"/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp8618882624#1739"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-generated-files.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-own-target-headers.hmap" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-all-target-headers.hmap" -iquote "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Breakthrough UCT-project-headers.hmap" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/include" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources/x86_64" "-I/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/DerivedSources" -c "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/main.cpp" -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT" normal x86_64
+s406852378.581374
+e406852379.896031
+r1
+xLd
+x/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT
+xnormal
+xx86_64
+lSLF07#2@114"Link /Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT406852378#406852379#0(0"0(0#0#0"7022608393754211328#754"    cd "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug" "-F/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug" -filelist "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Breakthrough UCT.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/Kat/Documents/School/2012-2013/02 Winter Quarter/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT"0#
+
+CLd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT" normal x86_64
+s384151147.705077
+e384151149.157553
+r1
+xLd
+x/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT
+xnormal
+xx86_64
+lSLF07#2@96"Link /Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT384151147#384151149#0(0"0(0#0#0"8618779264#664"    cd "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" "-F/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug" -filelist "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Breakthrough UCT.build/Debug/Breakthrough UCT.build/Objects-normal/x86_64/Breakthrough UCT.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/Kat/Documents/School/2012-2013/Game AI/Breakthrough UCT/build/Debug/Breakthrough UCT"0#
+
